@@ -38,7 +38,7 @@ npm install multer
 ```
 
 2. Criar o arquivo de configuração do multer. 
-2. Exemplo de configuração: [configUpload.js](https://github.com/WilliamMN/exemplo-upload-imagem-local/src/config/configUpload.js)
+- Exemplo de configuração: [configUpload.js](https://github.com/WilliamMN/exemplo-upload-imagem-local/blob/main/src/config/configUpload.js)
 
-3. Criar uma rota para receber o upload
-3. Exemplo de rota: [configUpload.js](https://github.com/WilliamMN/exemplo-upload-imagem-local/src/routes/usuarioRouter.js)
+3. Criar uma rota para receber o upload.
+- Exemplo de rota: [usuarioRouter.js](https://github.com/WilliamMN/exemplo-upload-imagem-local/blob/main/src/routes/usuarioRouter.js)
