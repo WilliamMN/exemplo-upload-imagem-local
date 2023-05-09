@@ -1,11 +1,12 @@
 const mysql = require("mysql2");
 
-// const mySqlConfig = {
-//   host: "SEU_SERVIDOR",
-//   database: "SEU_BANCO_DE_DADOS",
-//   user: "SEU_USUARIO",
-//   password: "SUA_SENHA",
-// };
+// CONEXÃO DO MYSQL WORKBENCH (LOCAL)
+const mySqlConfig = {
+  host: "SEU_SERVIDOR",
+  database: "SEU_BANCO_DE_DADOS",
+  user: "SEU_USUARIO",
+  password: "SUA_SENHA",
+}
 
 function executar(instrucao) {
   return new Promise(function (resolve, reject) {
