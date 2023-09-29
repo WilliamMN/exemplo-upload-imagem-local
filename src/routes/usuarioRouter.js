@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const upload = require('../config/configUpload'); // ARQUIVO COM A COFIGURAÇÃO DO UPLOAD
+const upload = require('../config/configUpload'); // ARQUIVO COM A CONFIGURAÇÃO DO UPLOAD
 const usuarioController = require('../controllers/usuarioController');
 
 router.get("", (req, res) => {
